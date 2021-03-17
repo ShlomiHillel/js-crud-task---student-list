@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Capsule</title>
+</head>
+
+<body>
+    
+    <div class="container">
+    <div class="tool-bar">
+        <input class="search-box" placeholder="search" type="text">
+        <select class="what-search">
+            <option value="firstName">First Name</option>
+            <option value="lastName">Last Name</option>
+            <option value="capsule">Capsule</option>
+            <option value="age">Age</option>
+            <option value="city">City</option>
+            <option value="gender" class="gender">Gender</option>
+            <option value="hobby">Hobby</option>
+        </select>
+        <select class="gender-select hidden">
+            <option value="" disabled selected hidden>Choose a Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+    <table class="appleseeds-table"></table>
+    <div class="lds-facebook loader hidden">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
